@@ -1,0 +1,90 @@
+.image{
+    width: 300px;
+    height: 170px;
+    display:block
+}
+.name{
+    width: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+    padding-left : 3px;
+    padding-right : 3px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+
+}
+.name:hover{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.small-icons{
+    margin-top: 0px;
+    height: 30px;
+}
+.menu{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.youtube-logo{
+    height: 30px;
+    margin-left: 30px;
+    vertical-align: center;
+}
+.search-icon{
+    height: 40px;
+    width: 66px;
+    vertical-align: center;
+    align-content: center;
+    border-radius: 4px;
+    border-color: rgb(187, 186, 186);
+    border-width: 1px;
+    border-left-color: rgb(187, 186, 186) ;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.search-icon:hover{
+    border-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+.search-icon-image{
+    height: 25px;
+    vertical-align: center;
+    align-content: center;
+    border: 1px ;
+    border-left: none;
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.search-icon-voice{
+    height: 34px;
+    width: 60px;
+    vertical-align: center;
+    align-content: center;  
+    border-radius: 17px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.search-icon-voice:hover{
+    background-color: rgba(128, 128, 128, 0.164);
+    transition: 0.5s;
+}
+.voice-icon-image{
+    height: 100%;
+    width: 30px;
+    vertical-align: center;
+    align-content: center;
+}
+.right-section-images{
+    height: 25px;
+    
+}
